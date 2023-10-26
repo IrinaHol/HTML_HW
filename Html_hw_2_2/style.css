@@ -1,40 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fjalla+One&family=Indie+Flower&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap');
 
 * {
     margin: 0;
 }
 
 .main {
+    height: 300px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
+    background-color: cadetblue;
 }
 
-.box200 {
-    height: 200px;
-    width: 200px;
-    background-color: chartreuse;
+.box100 {
+    height: 100px;
+    width: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: chocolate;
+    transition: 2s;
 }
 
-.font_rubik_pix {
-    font-family: 'Rubik Pixels', sans-serif;
-}
-
-.font_sedgwick {
-    font-family: 'Sedgwick Ave Display', sans-serif;
-}
-
-.font_dancing {
-    font-family: 'Dancing Script', sans-serif;
-}
-
-.font_fjalla {
-    font-family: 'Fjalla One', sans-serif ;
-}
-
-.font_indie {
-    font-family: 'Indie Flower', sans-serif ;
+.box100:hover {
+    border-radius: 50%;
+    background-color: black;
+    transition: 2s;
 }
