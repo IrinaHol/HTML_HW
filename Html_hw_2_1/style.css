@@ -10,7 +10,7 @@
     flex-wrap: wrap;
 }
 
-.box200 {
+.box {
     height: 200px;
     width: 200px;
     background-color: chartreuse;
@@ -20,15 +20,15 @@
 }
 
 .font_rubik_pix {
-    font-family: 'Rubik Pixels', sans-serif;
+    font-family: 'Rubik Pixels', cursive;
 }
 
 .font_sedgwick {
-    font-family: 'Sedgwick Ave Display', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
 }
 
 .font_dancing {
-    font-family: 'Dancing Script', sans-serif;
+    font-family: 'Dancing Script', cursive;
 }
 
 .font_fjalla {
@@ -36,5 +36,5 @@
 }
 
 .font_indie {
-    font-family: 'Indie Flower', sans-serif ;
+    font-family: 'Indie Flower', cursive ;
 }
