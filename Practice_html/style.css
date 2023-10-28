@@ -1,0 +1,23 @@
+.cart_box {
+    display: flex;
+}
+
+.cart {
+    height: 140px;
+    background-color: silver;
+    margin: 10px 10px 0 0;
+    padding: 0 20px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.darkRed {
+    color: darkred;
+}
+
+.text {
+    font-size: 30px;
+}
